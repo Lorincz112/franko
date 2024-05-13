@@ -103,3 +103,31 @@ section#termekek {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+div.termekek{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.termek {
+    margin-top: 18px;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: "Brush Script MT", cursive;
+    line-height: normal;
+}
+.pite {
+    text-align: left;
+    font-size: 18px;
+    font-family: "Brush Script MT", cursive;
+}
+.cim {
+    text-align: left;
+    font-size: 35px;
+    font-family: "Brush Script MT", cursive;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+table{
+    margin-top: 15px;
+}
