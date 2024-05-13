@@ -207,36 +207,38 @@
             <p class="text">Asztalfoglalásra nyitva tartási időben telefonon a +36 30 123 45 67 telefonszámon vagy 0-24 órában online, az alábbi felületen van lehetőség.<br>
               <br><b>Kérjük, hogy asztalfoglaláskor a foglalni kívánt létszámba kortól függetlenül a gyermekeket is számolják bele!</b><br>
               <br><b>Asztalát a foglalt időponttól számított 15 percig tartjuk. Kérjük késését jelezze felénk telefonon.</b></p>
-            <form action="mailto:llajospeter112@gmail.hu" method="post" enctype="text/plain">
-              <label id="k1" for="nev">Név</label>
-              <br>
-              <input id="nev" type="text" size="30" style="border-radius: 15px;" name="Nev" maxlength="30" placeholder="   Vezetéknév Keresztnév" required>
-              <br><br>
-              <label id="k2" for="ecim">Email cím</label>
-              <br>
-              <input id="ecim" type="text" size="30" style="border-radius: 15px;" name="Email cim" maxlength="30" placeholder="   emailcim@gmail.com" required>
-              <br><br>
-              <label id="k2" for="fo">Hány főre?</label>
-              <br>
-              <input type="number" id="fo" style="width: 10em;border-radius: 15px;" name="Hany fore" min="1" max="20" placeholder="   4" required>
-              <br><br>
-              <label id="k2">Hol legyen az asztal?</label>
-              <br>
-              <input type="radio" name="Hol" value="Kint" id="kint">
-              <label for="kint">Kint</label>
-              <br>
-              <input type="radio" name="Hol" value="Bent" id="bent">
-              <label for="bent">Bent</label>
-              <br><br>
-              <label id="k2" for="datum">Dátum</label><br>
-              <input type="date" name="Milyen nap" style="width: 10em;border-radius: 15px;" min="2024-06-01" id="datum" required>
-              <br><br>
-              <label id="k2" for="idopont">Időpont</label><br>
-              <input type="time" name="Hany ora" style="width: 10em;border-radius: 15px;" min="08:00" max="19:00" id="idopont" required>
-              <br><br>
-              <input class="gomb1" type="submit" value="Foglalás">
-              <input class="gomb2" type="reset" value="Visszaállít">
-            </form>
+            <div class="form">
+              <form action="mailto:llajospeter112@gmail.hu" method="post" enctype="text/plain">
+                <label id="k1" for="nev">Név</label>
+                <br>
+                <input id="nev" type="text" size="25" style="border-radius: 15px;" name="Nev" maxlength="30" placeholder="   Vezetéknév Keresztnév" required>
+                <br><br>
+                <label id="k2" for="ecim">Email cím</label>
+                <br>
+                <input id="ecim" type="text" size="25" style="border-radius: 15px;" name="Email cim" maxlength="30" placeholder="   emailcim@gmail.com" required>
+                <br><br>
+                <label id="k2" for="fo">Hány főre?</label>
+                <br>
+                <input type="number" id="fo" style="width: 10em;border-radius: 15px;" name="Hany fore" min="1" max="20" placeholder="   4" required>
+                <br><br>
+                <label id="k2">Hol legyen az asztal?</label>
+                <br>
+                <input type="radio" name="Hol" value="Kint" id="kint">
+                <label for="kint">Kint</label>
+                <br>
+                <input type="radio" name="Hol" value="Bent" id="bent">
+                <label for="bent">Bent</label>
+                <br><br>
+                <label id="k2" for="datum">Dátum</label><br>
+                <input type="date" name="Milyen nap" style="width: 10em;border-radius: 15px;" min="2024-06-01" id="datum" required>
+                <br><br>
+                <label id="k2" for="idopont">Időpont</label><br>
+                <input type="time" name="Hany ora" style="width: 10em;border-radius: 15px;" min="08:00" max="19:00" id="idopont" required>
+                <br><br>
+                <input class="gomb1" type="submit" value="Foglalás">
+                <input class="gomb2" type="reset" value="Visszaállít">
+              </form>
+            </div>
           </div>
         </section>
         <section id="kapcsolat">
