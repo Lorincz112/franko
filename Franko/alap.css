@@ -16,6 +16,12 @@ header {
     max-width: 70%;
     height: auto;
 }
+.picture1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 70%;
+    height: auto;
+}
 li{
     display: inline;
     margin-left: 40px;
@@ -25,6 +31,7 @@ li{
     font-size: x-large;
     color: black;
     text-decoration: none;
+    margin-right: 25px;
 }
 main, footer {
     border: none;
@@ -60,14 +67,33 @@ section.kezdolap {
     margin-bottom: 10px;
     line-height: normal;
 }
+.kozep{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
 h1 {
     text-align: center;
     font-weight: bold;
     font-family: Impact;
-    font-size: 85px;
+    font-size: 80px;
     margin-top: 0px;
     margin-bottom: 40px;
     font-style: italic;
+}
+nav#tartalomraugras a {
+	position: absolute;
+	left: -9999px;
+}
+nav#tartalomraugras a:focus {
+	position: static;
+	background-color: white;
+}
+.rejtett {
+	position: absolute;
+	left: -9999px;
 }
 .hasab {
 	column-count: 2;
@@ -77,16 +103,45 @@ h1 {
     .hasab {
         column-count: 1;
     }
+    .kozep{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .header {
+        font-family: "Brush Script MT", cursive;
+        font-size: x-large;
+        color: black;
+        text-decoration: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .picture2 {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70%;
+        height: auto;
+        margin-top: 15px;
+    }
 }
 section#rolunk {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #fefeda;
+    background-color: #F6E0E7;
 }
 div.rolunk{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+@media screen and (max-width: 992px) 
+{
+    div.rolunk{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .text{
     margin-top: 40px;
@@ -99,6 +154,7 @@ div.rolunk{
 section#termekek {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #FCF1ED;
 }
 div.termekek{
     width: 70%;
@@ -139,7 +195,7 @@ table{
 section#ebed {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #fefee2;
+    background-color: white;
 }
 div.ebed{
     width: 70%;
@@ -165,39 +221,52 @@ tr, td {
     text-align: left;
     font-family: "Brush Script MT", cursive;
     line-height: normal;
-    background-color: #65c1ce;
+    background-color: #C2EADD;
 }
 .kedd_sor {
     font-size: 20px;
     text-align: left;
     font-family: "Brush Script MT", cursive;
     line-height: normal;
-    background-color: #f19570;
+    background-color: #FFF689;
 }
 .szerda_sor {
     font-size: 20px;
     text-align: left;
     font-family: "Brush Script MT", cursive;
     line-height: normal;
-    background-color: #eec877;
+    background-color: #ECA283;
 }
 .csutortok_sor {
     font-size: 20px;
     text-align: left;
     font-family: "Brush Script MT", cursive;
     line-height: normal;
-    background-color: #aed383;
+    background-color: #BB999C;
 }
 .pentek_sor {
     font-size: 20px;
     text-align: left;
     font-family: "Brush Script MT", cursive;
     line-height: normal;
-    background-color: #efa5be;
+    background-color: #9999C3;
+}
+@media screen and (max-width: 992px)
+{
+    div.ebed{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .menu{
+        width: 85%;
+    }
 }
 section#foglalas {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #E4D9FF;
 }
 div.foglalas{
     width: 70%;
@@ -225,36 +294,88 @@ label#k2 {
     font-size: 25px;
     font-weight: bold;
     font-family: "Brush Script MT", cursive;
-    background-color: #c2fbd7;
+    background-color: #AFFC41;
     border-radius: 15px;
+}
+.gomb1:hover{
+    transform: scale(1.025);
+    box-shadow: #477902 0px 7px 10px inset;
 }
 .gomb2 {
     margin-top: 15px;
     margin-left: 15px;
     font-family: "Brush Script MT", cursive;
     border-radius: 15px;
+    background-color: #FF5154;
+}
+.gomb2:hover{
+    transform: scale(1.025);
+    box-shadow: #A30003 0px 7px 10px inset;
 }
 .form {
-    background-color: #fefeda;
+    background-color: #533A71;
+    color: white;
     padding-bottom: 35px;
     border-radius: 45px;
     width: 45%;
     margin-left: auto;
     margin-right: auto;
-}
-@media screen and (max-width: 992px)
+}@media screen and (max-width: 1100px)
 {
     .form {
-        background-color: #fefeda;
+        background-color: #533A71;
         padding-bottom: 35px;
         border-radius: 45px;
         width: 92%;
     }
 }
+@media screen and (max-width: 992px)
+{
+    div.foglalas{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    iframe {
+        width: 352px;
+        height: 264px;
+    }
+}
 section#kapcsolat {
     padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #ffffea;
+    padding-bottom: 550px;
+    background-color: #415D43;
+    color: white;
+}
+.kapcsolatok_tab {
+    width: 50%;
+    float: left;
+}
+.terkep {
+    width: 50%;
+    float: left;
+}
+@media screen and (max-width: 1739px)
+{
+    section#kapcsolat {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        background-color: #415D43;
+        color: white;
+        align-content: center;
+    }
+    .kapcsolatok_tab {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .terkep {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
 }
 div.kapcsolat{
     width: 70%;
@@ -267,23 +388,13 @@ div.kapcsolat{
     font-size: 23px;
     font-family: "Brush Script MT", cursive;
 }
-.kapcsolatok_tab {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 15px;
-}
 .kapcs_link {
     text-decoration: none;
     text-align: center;
     font-size: 18px;
     font-family: "Brush Script MT", cursive;
-    color: black;
+    color: white;
 }
-.terkep {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    overflow: auto;
-    width: 70%;
+.kapcs_link:hover{
+    color: #EF3E36;
 }
