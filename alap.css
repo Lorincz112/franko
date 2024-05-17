@@ -456,3 +456,96 @@ div.kapcsolat{
 .kapcs_link:hover{
     color: #EF3E36;
 }
+@media screen and (max-width: 600px) 
+{
+    .text{
+        margin-top: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 18px;
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif
+    }
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        font-family: Impact;
+        font-size: 55px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        font-style: italic;
+    }
+    .termek {
+        margin-top: 18px;
+        margin-left: 25px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: normal;
+    }
+    .pite {
+        text-align: left;
+        font-size: 13px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .cim {
+        text-align: left;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 0px;
+    }
+    .hetfo {
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        font-size: 20px;
+    }
+    .hetfo_sor {
+        font-size: 15px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: normal;
+        background-color: #C2EADD;
+    }
+    .kedd_sor {
+        font-size: 15px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: normal;
+        background-color: #FFF689;
+    }
+    .szerda_sor {
+        font-size: 15px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: normal;
+        background-color: #ECA283;
+    }
+    .csutortok_sor {
+        font-size: 15px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: normal;
+        background-color: #BB999C;
+    }
+    .pentek_sor {
+        font-size: 15px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: normal;
+        background-color: #9999C3;
+    }
+    .kapcs {
+        text-align: left;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .kapcs_link {
+        text-decoration: none;
+        text-align: center;
+        font-size: 13px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+    }
+}
