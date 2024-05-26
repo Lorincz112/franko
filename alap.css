@@ -406,11 +406,11 @@ label#k2 {
     margin-left: 15px;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 15px;
-    background-color: #FF5154;
+    background-color: #eaeaea;
 }
 .gomb2:hover{
     transform: scale(1.025);
-    box-shadow: #A30003 0px 7px 10px inset;
+    box-shadow: #c6c6c6 0px 7px 10px inset;
 }
 .form {
     background-color: #533A71;
