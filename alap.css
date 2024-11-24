@@ -59,7 +59,7 @@ section.kezdolap {
     background-position: center;
     background-attachment: fixed;
 }
-.cover0 {
+h1 {
     font-family: Impact;
     text-align: center;
     color: white;
@@ -81,7 +81,7 @@ section.kezdolap {
 }
 @media screen and (max-height: 800px) 
 {
-    .cover0 {
+    h1 {
         font-family: Impact;
         text-align: center;
         color: white;
@@ -95,7 +95,7 @@ section.kezdolap {
 }
 @media screen and (max-height: 600px) 
 {
-    .cover0 {
+    h1 {
         font-family: Impact;
         text-align: center;
         color: white;
@@ -109,7 +109,7 @@ section.kezdolap {
 }
 @media screen and (max-height: 500px) 
 {
-    .cover0 {
+    h1 {
         font-family: Impact;
         text-align: center;
         color: white;
@@ -123,11 +123,11 @@ section.kezdolap {
 }
 @media screen and (max-width: 913px) 
 {
-    .cover0 {
+    h1 {
         font-family: Impact;
         text-align: center;
         color: white;
-        font-size: 125px;
+        font-size: 150px;
         margin-top: 180px;
         margin-bottom: 20px;
         font-weight: bold;
@@ -137,7 +137,7 @@ section.kezdolap {
     .cover1 {
         color: white;
         text-align: center;
-        font-size: 20px;
+        font-size: 30px;
         font-family: 'Times New Roman', Times, serif;
         margin-top: 0px;
         margin-bottom: 10px;
@@ -146,13 +146,13 @@ section.kezdolap {
 }
 @media screen and (max-width: 600px) 
 {
-    .cover0 {
+    h1 {
         font-family: Impact;
         text-align: center;
         color: white;
-        font-size: 100px;
+        font-size: 125px;
         margin-top: 220px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         font-weight: bold;
         font-style: italic;
         line-height: normal;
@@ -174,7 +174,7 @@ section.kezdolap {
     text-align: center;
     margin:0 auto;
 }
-h1 {
+h2 {
     text-align: center;
     font-weight: bold;
     font-family: Impact;
@@ -282,7 +282,7 @@ div.termekek{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
-.cim {
+h3 {
     text-align: left;
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
@@ -391,6 +391,34 @@ label#k1 {
     font-family: 'Times New Roman', Times, serif;
 }
 label#k2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+label#k3 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+label#k4 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+label#k5 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+label#k6 {
     margin-top: 15px;
     text-align: center;
     font-size: 20px;
@@ -509,7 +537,7 @@ div.kapcsolat{
 }
 @media screen and (max-width: 450px) 
 {
-    .cover0 {
+    h1 {
         font-family: Impact;
         text-align: center;
         color: white;
@@ -537,7 +565,7 @@ div.kapcsolat{
         text-align: justify;
         font-family: 'Times New Roman', Times, serif
     }
-    h1 {
+    h2 {
         text-align: center;
         font-weight: bold;
         font-family: Impact;
@@ -558,7 +586,7 @@ div.kapcsolat{
         font-size: 13px;
         font-family: 'Times New Roman', Times, serif;
     }
-    .cim {
+    h3 {
         text-align: left;
         font-size: 30px;
         font-family: 'Times New Roman', Times, serif;
