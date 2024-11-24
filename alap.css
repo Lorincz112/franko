@@ -535,13 +535,13 @@ div.kapcsolat{
 .kapcs_link:hover{
     color: #EF3E36;
 }
-@media screen and (max-height: 675px) and (max-width: 720px)
+@media screen and (max-height: 576px) and (max-width: 720px)
 {
     h1 {
         font-family: Impact;
         text-align: center;
         color: white;
-        font-size: 105px;
+        font-size: 50px;
         margin-top: 220px;
         margin-bottom: 20px;
         font-weight: bold;
