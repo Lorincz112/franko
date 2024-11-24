@@ -93,7 +93,7 @@ h1 {
         line-height: normal;
     }
 }
-@media screen and (max-height: 600px)  and (max-width: 800px)
+@media screen and (max-height: 600px)  and (max-width: 992px)
 {
     h1 {
         font-family: Impact;
@@ -107,7 +107,7 @@ h1 {
         line-height: normal;
     }
 }
-@media screen and (max-height: 480px)  and (max-width: 720px)
+@media screen and (max-height: 600px)  and (max-width: 450px)
 {
     h1 {
         font-family: Impact;
@@ -120,8 +120,40 @@ h1 {
         font-style: italic;
         line-height: normal;
     }
+    .cover1 {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        line-height: normal;
+    }
 }
-@media screen and (max-height: 675px) and (max-width: 720px)
+@media screen and (max-height: 480px) and (max-width: 450px)
+{
+    h1 {
+        font-family: Impact;
+        text-align: center;
+        color: white;
+        font-size: 75px;
+        margin-top: 220px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-style: italic;
+        line-height: normal;
+    }
+    .cover1 {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        line-height: normal;
+    }
+}
+@media screen and (max-height: 480px) and (max-width: 992px)
 {
     h1 {
         font-family: Impact;
@@ -137,7 +169,7 @@ h1 {
     .cover1 {
         color: white;
         text-align: center;
-        font-size: 18px;
+        font-size: 22px;
         font-family: 'Times New Roman', Times, serif;
         margin-top: 0px;
         margin-bottom: 10px;
