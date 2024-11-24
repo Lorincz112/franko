@@ -535,6 +535,29 @@ div.kapcsolat{
 .kapcs_link:hover{
     color: #EF3E36;
 }
+@media screen and (max-height: 720px) and (max-width: 720px)
+{
+    h1 {
+        font-family: Impact;
+        text-align: center;
+        color: white;
+        font-size: 125px;
+        margin-top: 220px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-style: italic;
+        line-height: normal;
+    }
+    .cover1 {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        line-height: normal;
+    }
+}
 @media screen and (max-width: 450px) 
 {
     h1 {
