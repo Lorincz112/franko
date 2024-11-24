@@ -535,6 +535,29 @@ div.kapcsolat{
 .kapcs_link:hover{
     color: #EF3E36;
 }
+@media screen and (max-height: 576px) 
+{
+    h1 {
+        font-family: Impact;
+        text-align: center;
+        color: white;
+        font-size: 105px;
+        margin-top: 220px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-style: italic;
+        line-height: normal;
+    }
+    .cover1 {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        line-height: normal;
+    }
+}
 @media screen and (max-width: 450px) 
 {
     h1 {
@@ -646,5 +669,28 @@ div.kapcsolat{
         font-size: 13px;
         font-family: 'Times New Roman', Times, serif;
         color: white;
+    }
+}
+@media screen and (max-width: 350px) 
+{
+    h1 {
+        font-family: Impact;
+        text-align: center;
+        color: white;
+        font-size: 75px;
+        margin-top: 150px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-style: italic;
+        line-height: normal;
+    }
+    .cover1 {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        line-height: normal;
     }
 }
