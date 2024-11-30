@@ -538,7 +538,7 @@ div.kapcsolat{
 @media screen and (max-height: 576px) and (max-width: 720px)
 {
     h1 {
-        font-family: Impact;
+        font-family: 'Times New Roman', Times, serif;
         text-align: center;
         color: white;
         font-size: 75px;
