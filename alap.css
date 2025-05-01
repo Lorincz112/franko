@@ -60,7 +60,7 @@ section.kezdolap {
     background-attachment: fixed;
 }
 h1 {
-    font-family: Impact;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: white;
     font-size: 150px;
@@ -82,7 +82,7 @@ h1 {
 @media screen and (max-height: 800px) 
 {
     h1 {
-        font-family: Impact;
+        font-family: 'Times New Roman', Times, serif;
         text-align: center;
         color: white;
         font-size: 150px;
@@ -96,7 +96,7 @@ h1 {
 @media screen and (max-height: 600px) 
 {
     h1 {
-        font-family: Impact;
+        font-family: 'Times New Roman', Times, serif;
         text-align: center;
         color: white;
         font-size: 150px;
@@ -110,7 +110,7 @@ h1 {
 @media screen and (max-height: 500px) 
 {
     h1 {
-        font-family: Impact;
+        font-family: 'Times New Roman', Times, serif;
         text-align: center;
         color: white;
         font-size: 150px;
@@ -124,7 +124,7 @@ h1 {
 @media screen and (max-width: 913px) 
 {
     h1 {
-        font-family: Impact;
+        font-family: 'Times New Roman', Times, serif;
         text-align: center;
         color: white;
         font-size: 150px;
@@ -147,7 +147,7 @@ h1 {
 @media screen and (max-width: 600px) 
 {
     h1 {
-        font-family: Impact;
+        font-family: 'Times New Roman', Times, serif;
         text-align: center;
         color: white;
         font-size: 125px;
@@ -177,7 +177,7 @@ h1 {
 h2 {
     text-align: center;
     font-weight: bold;
-    font-family: Impact;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 80px;
     margin-top: 0px;
     margin-bottom: 40px;
@@ -561,7 +561,7 @@ div.kapcsolat{
 @media screen and (max-width: 450px) 
 {
     h1 {
-        font-family: Impact;
+        font-family: 'Times New Roman', Times, serif;
         text-align: center;
         color: white;
         font-size: 105px;
@@ -591,7 +591,7 @@ div.kapcsolat{
     h2 {
         text-align: center;
         font-weight: bold;
-        font-family: Impact;
+        font-family: 'Times New Roman', Times, serif;
         font-size: 55px;
         margin-top: 0px;
         margin-bottom: 40px;
@@ -674,7 +674,7 @@ div.kapcsolat{
 @media screen and (max-width: 350px) 
 {
     h1 {
-        font-family: Impact;
+        font-family: 'Times New Roman', Times, serif;
         text-align: center;
         color: white;
         font-size: 50px;
